@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class 22</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+<div class="main">
+	<ul>
+		<li>Home 01</li>
+		<li>Home 02</li>
+		<li>Home 03</li>
+		<li>Home 04</li>
+		<li>Home 05
+			<div class="mega_main">
+
+			</div>
+		</li>
+		<li>Home 06</li>
+	</ul>
+</div>
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+
+	$(".main ul li").click(function () {
+
+		$(".mega_main").slideToggle(1000);
+
+	});
+
+</script>
+
+</body>
+</html>
+
+
+

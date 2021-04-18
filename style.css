@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main {
+	background-color: black;
+
+	position: relative;
+
+
+}
+
+.main ul {
+	display: table;
+	margin: auto;
+
+}
+
+.main ul li {
+	display: inline-block;
+	padding: 10px 56px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.mega_main {
+	height: 300px;
+	width: 100%;
+	background-color: yellow;
+
+	position: absolute;
+
+	top: 100%;
+	left: 0px;
+
+	display: none;
+
+
+}
+
+.main ul li:hover {
+	background-color: linen;
+	color: black;
+}
